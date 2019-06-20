@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg10"
+   width="186"
+   height="272"
+   viewBox="0 0 186 272"
+   sodipodi:docname="personalLogoTS2.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="2.9705882"
+     inkscape:cx="37.623762"
+     inkscape:cy="129.6184"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pagecheckerboard="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="big paisley">
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 112.66211,9.7851562 C 81.943942,11.091426 55.144101,31.211589 37.158203,54.951172 8.6776259,92.535402 -1.6838426,144.22163 14.10797,189.14764 c 11.493209,35.41121 39.874677,67.426 77.284608,75.36017 30.999842,6.59948 66.238572,-7.60161 81.101562,-36.24414 11.86194,-22.92554 12.0303,-51.26406 2.06055,-74.88086 -10.7975,-22.59773 -34.50619,-34.07158 -53.15625,-49.04687 -19.81038,-14.924137 -17.65337,-49.599503 3.84961,-61.962893 12.62927,-6.755021 31.2361,-7.903862 41.62331,2.130453 3.41979,3.071544 9.59544,10.217203 9.59544,10.217203 -5.39743,-23.63513 -27.59167,-40.077119 -50.77344,-43.75 -4.29364,-0.801464 -8.66157,-1.2336365 -13.03125,-1.1855468 z M 74.902344,67.976562 c -2.368055,16.529695 -0.242217,34.734268 11.003906,47.808598 12.855001,17.74972 33.55121,27.36275 48.13086,43.17578 16.85586,20.45658 9.46214,56.55054 -15.94336,66.33984 -15.21811,5.89298 -32.451821,-0.13145 -43.457031,-11.28906 C 48.709004,190.12032 39.599924,151.58437 46.925781,117.99219 51.572576,98.94475 61.80235,81.604989 74.972656,67.427734 Z"
+       id="path21"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="inner paisley "
+     style="display:none"
+     sodipodi:insensitive="true" />
+</svg>
