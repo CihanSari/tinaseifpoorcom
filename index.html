@@ -7,7 +7,7 @@
   <title>Tina Seifpoor</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="img/logoP.png" type="image/png" sizes="72x72" >
+  <link rel="icon" href="img/logoPB.png" type="image/png" sizes="72x72">
 
   <!-- Favicons
     ================================================== -->
@@ -24,6 +24,7 @@
     ================================================== -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -44,14 +45,21 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <h1>Hello, I'm <span class="name">Tina Seifpoor</span></h1>
-            <p>Front End Developer & UX Designer (to be) </p>
-            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a>
+            <div id="logo" class="animated fadeInUp" style=" animation-duration: 1s; animation-delay: 1s;">
+              <img src="img/logoW.png" style="width: 60px;">
+            </div>
+            <h1 class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 1s;">Hello, I'm <span class="name">Tina Seifpoor</span></h1>
+            <p class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 2s;">Front End Developer & UX Designer (to be ^_^) </p>
+            <!-- <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> -->
           </div>
         </div>
+        <span id="arrow" class="animated bounce" style="display: block; animation-duration: 2s; animation-delay: 3s; animation-iteration-count:infinite;">      
+          <p class="scroll">Learn more about me</p>
+        </span>
       </div>
     </div>
   </header>
+  
 
   <!-- Navigation -->
   <div id="nav">
@@ -60,7 +68,10 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i
               class="fa fa-bars"></i> </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Tina Seifpoor <icon ></icon></a> </div>
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <!-- <img src="img/logoW.png" style="width: 30px; display: inline;">  -->
+            Tina Seifpoor <icon></icon></a>
+        </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -85,7 +96,7 @@
         <hr>
       </div>
       <div class="row">
-        <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+        <div class="col-md-12 text-center"><img src="img/aboutme.jpg" class="img-responsive"></div>
         <div class="col-md-8 col-md-offset-2">
           <div class="about-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
@@ -110,19 +121,19 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span>
           </span>
-          <h4>HTML5</h4>
+          <h4>HTML</h4>
         </div>
         <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span>
           </span>
-          <h4>CSS3</h4>
+          <h4>CSS</h4>
         </div>
         <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
           </span>
-          <h4>jQuery</h4>
+          <h4>JS</h4>
         </div>
         <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
           </span>
-          <h4>WordPress</h4>
+          <h4>Angular</h4>
         </div>
         <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span>
           </span>
