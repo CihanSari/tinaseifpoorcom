@@ -315,15 +315,23 @@ header span#arrow.animated {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background: #a885be; /* Old browsers */
+	background: -moz-linear-gradient(top, #c2accf 0%, #f4f5f6 49%, #a885be 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a885be), color-stop(49%, #f4f5f6), color-stop(100%, #a885be)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a885be 0%, #f4f5f6 49%, #a885be 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a885be 0%, #f4f5f6 49%, #a885be 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a885be 0%, #f4f5f6 49%, #a885be 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a885be 0%, #f4f5f6 49%, #a885be 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a885be', endColorstr='#a885be', GradientType=0 ); /* IE6-9 */
 }
+
+#portfolio h2{
+	color: #fff;
+}
+#portfolio hr {
+	background: rgba(255,255,255,0.3);
+}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -404,7 +412,7 @@ ol.type li a:hover {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #ffffff;
+	color: #a885be;
 	background: rgba(0, 0, 0, 0.66);
 	padding: 33% 0 0 0;
 	height: 100%;
@@ -579,7 +587,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #290939;
-	background: #83B1E4;
+	background: #c2accf;
 }
 #contact h2 {
 	color: #fff;
@@ -601,7 +609,7 @@ ol.type li a:hover {
 	margin-bottom: 10px;
 }
 #contact .text-danger {
-	color: #E87E04;
+	color: rgb(232, 4, 72);
 	text-align: left;
 }
 label {
