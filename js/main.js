@@ -93,7 +93,11 @@ function main() {
       social_tools: false
     });
 
-  }());
+    const showIt = function() {
+      document.getElementById("arrow1").style.visibility = "visible";
+    }
+    setTimeout(showIt, 5000);
 
+  }());
 }
 main();
