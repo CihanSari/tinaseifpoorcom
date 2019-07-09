@@ -45,20 +45,29 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <div id="logo" class="animated fadeInUp" style=" animation-duration: 1s; animation-delay: 1s;">
+            <div id="logo" class="animated fadeInUp" style=" animation-duration: 1.5s; animation-delay: 1s;">
               <img src="img/logoW.png" style="width: 60px;">
             </div>
-            <h1 class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 1s;">Hello, I'm <span
+            <h1 class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 2s;">Hello, I'm <span
                 class="name">Tina Seifpoor</span></h1>
-            <p class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 2s;">Front End Developer & UX
+            <p class="animated fadeInUp" style="animation-duration: 1s; animation-delay: 3s;">Front End Developer & UX
               Designer (to be ^_^) </p>
             <!-- <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> -->
           </div>
         </div>
-        <span id="arrow" class="animated bounce"
-          style="display: block; animation-duration: 2s; animation-delay: 3s; animation-iteration-count:infinite;">
-          <p class="scroll">learn more</p>
-        </span>
+        <div id="arrow1" style="visibility: hidden">
+          <span id="arrow" class="animated bounce"
+            style="display: block; animation-duration: 2s; animation-delay: 4s; animation-iteration-count:infinite;">
+            <p class="scroll">See more</p>
+          </span>
+        </div>
+        </script>
+        <script type="text/javascript">
+          function showIt() {
+            document.getElementById("arrow1").style.visibility = "visible";
+          }
+          setTimeout("showIt()", 5000); 
+        </script>
       </div>
     </div>
   </header>
@@ -102,20 +111,22 @@
         <div class="col-md-12 text-center"><img src="img/aboutme.jpg" class="img-responsive"></div>
         <div class="col-md-8 col-md-offset-2">
           <div class="about-text">
-            <p>Technical and engineering background combined with extensive experience in Digital Marketing strategies and User experience.
-                Skilled in utilization of inbound Marketing and Social Media to promote Customer Engagement and Value.
+            <p>Technical and engineering background combined with extensive experience in Digital Marketing strategies
+              and User experience.
+              Skilled in utilization of inbound Marketing and Social Media to promote Customer Engagement and Value.
             </p>
-            <p>Exceptional communication skills, design and implementing educational strategies and developing cross functional
-               collaboration between product engineers and managers, Marketing and Customers.</p>
+            <p>Exceptional communication skills, design and implementing educational strategies and developing cross
+              functional
+              collaboration between product engineers and managers, Marketing and Customers.</p>
             <p class="text-center"><a class="btn btn-primary page-scroll" href="#resume">
-              <!-- <i class="fa fa-download"></i>  -->
-              Resume</a></p>
+                <!-- <i class="fa fa-download"></i>  -->
+                Resume</a></p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
   <!-- Skills Section
   <div id="skills" class="text-center">
     <div class="container">
@@ -269,10 +280,10 @@
                   <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title">
                 </a> </div>
             </div> -->
-          </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <!-- Achievements Section
   <div id="achievements" class="text-center">
@@ -372,22 +383,22 @@
             </li>
 
             <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Jan 2014 <br>
-                    - <br>
-                    OCT 2011 </h4>
+              <div class="timeline-image">
+                <h4>Jan 2014 <br>
+                  - <br>
+                  OCT 2011 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Bogazici University<br> ADAX project</h4>
+                  <h4 class="subheading">Reasercher</h4>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Bogazici University<br> ADAX project</h4>
-                    <h4 class="subheading">Reasercher</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare
-                      diamcommodo nibh ante facilisis.</p>
-                  </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare
+                    diamcommodo nibh ante facilisis.</p>
                 </div>
-              </li>
+              </div>
+            </li>
 
           </ul>
         </div>
@@ -430,8 +441,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Islamic Azad University of Lahijan, Iran 
-                      </h4>
+                  <h4>Islamic Azad University of Lahijan, Iran
+                  </h4>
                   <h4 class="subheading">Bachelor of Science<br>
                     Electrical & Electronics Engineering Dept.</h4>
                 </div>
