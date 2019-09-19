@@ -96,7 +96,7 @@ function main() {
     const showIt = function() {
       document.getElementById("arrow1").style.visibility = "visible";
     }
-    setTimeout(showIt, 4H000);
+    setTimeout(showIt, 4000);
 
   }());
 }
